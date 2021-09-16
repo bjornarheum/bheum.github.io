@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #2c2c2c;
+}
+
+#root {
+    display: flex; 
+    height: 100vh;
+}
+
+#main {
+    flex-grow: 1;
+    margin-right: 60px;
+    padding: 60px 60px 60px 0;
+    overflow: auto;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 60px;
+}
+
+#greeting {
+    background: linear-gradient(0deg, #EFF6F6 30%, #fff 50%);
+}
+
+#sidebar {
+    width: 320px; 
+    padding: 48px;
+    background-color: #EFF6F6;
+    overflow: auto;
+}
+
+.imageContainer {
+    height: 200px;
+    width: 200px;
+    background-image: url('./images/_MG_2706-2.jpg');
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 3em;
+}
+h4 {
+    margin-bottom: 12px;
+}
+h5 {
+    margin-bottom: 8px;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+table {
+    width: 100%;
+}
+
+table td, table td * {
+    vertical-align: top;
+}
+
+table#sidebartable tr td:first-child {
+    font-weight: 500;
+}
+
+#sidebartable {
+    margin-bottom: 48px;
+}
+
+.right {
+    text-align: right;
+}
+
+.section {
+    margin-bottom: 48px;
+}
+.section-big {
+    margin-bottom: 96px;
+}
+
+.specialfont {
+    font-family: 'Brush Script MT';
+    font-weight: 300;
+}
+
+.nakedList {
+    list-style: none;
+}
+
+.displaybox {
+    background-color: #88BBBC;
+    max-width: calc(50% + 400px);
+    padding: 60px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+.displaybox h4 {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0;
+}
+.displaybox h3 {
+    color: #fff;
+    font-size: 4em;
+    font-weight: 600;
+}
+
+.flexcontainer {
+    display: flex;
+}
+
+.grid {
+    display: flex;
+    align-items: 'center';
+}
+
+.col6 {
+    width: 50%;
+}
+
+.grid .col6:not(:last-child) {
+    margin-right: 24px;
+}
+
+blockquote {
+    background-color: #EFF6F6;
+    padding: 16px;
+    font-style: italic;
+}
+
+.quotespace {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.citation {
+    opacity: 0.5;
+}
