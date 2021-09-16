@@ -37,7 +37,7 @@
 .imageContainer {
     height: 200px;
     width: 200px;
-    background-image: url('images/profile.jpg');
+    background-image: url('profile.jpg');
     background-size: 200px;
     background-position: center;
     background-repeat: no-repeat;
